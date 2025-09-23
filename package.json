@@ -1,0 +1,31 @@
+{
+  "name": "create-structure-fsd",
+  "version": "1.0.0",
+  "description": "create-structure-fsd is a powerful command-line tool designed for developers using the Feature-Sliced Design (FSD) architecture in React applications. This library simplifies the process of structuring projects by providing easy-to-use scripts for creating folder structures and components based on FSD principles.",
+  "main": "index.js",
+  "bin": {
+       "fsd": "./index.js"
+     },
+     "scripts": {
+       "createStructure": "node index.js createStructureFSD",
+       "createComponent": "node index.js createComponent"
+     },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostiukirill/create-structure-fsd.git"
+  },
+  "keywords": [
+    "feature-sliced",
+    "react",
+    "component-structure",
+    "frontend",
+    "library",
+    "project-setup"
+  ],
+  "author": "Kostyu Kirill (https://github.com/kostiukirill)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kostiukirill/create-structure-fsd/issues"
+  },
+  "homepage": "https://github.com/kostiukirill/create-structure-fsd#readme"
+}
