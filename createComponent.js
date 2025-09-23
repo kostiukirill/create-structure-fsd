@@ -30,7 +30,7 @@ const parseTargetFolderPath = (componentType) => {
  * @param {string} ComponentName - The name of the component you want to create
  */
 
-export const createComponent = (componentType, componentName) => {
+const createComponent = (componentType, componentName) => {
   /**  Converting folder name to path */
   const targetFolderPath = parseTargetFolderPath(componentType);
   if (targetFolderPath) {
@@ -304,15 +304,17 @@ export * from './useHandlers'
   );
 };
 
-/** Receiving arguments from the console */
-const args = process.argv.slice(2);
-/** Type of component */
-const componentType = args[0];
-/** ComponentName */
-const componentName = args[1];
+// /** Receiving arguments from the console */
+// const args = process.argv.slice(2);
+// /** Type of component */
+// const componentType = args[0];
+// /** ComponentName */
+// const componentName = args[1];
 
-if (!componentType || !componentName) {
-  console.error("Not enough arguments");
-  process.exit(1);
-}
-createComponent(componentType, componentName);
+// if (!componentType || !componentName) {
+//   console.error("Not enough arguments");
+//   process.exit(1);
+// }
+// createComponent(componentType, componentName);
+
+module.exports = { createComponent };

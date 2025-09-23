@@ -5,7 +5,7 @@ const createDirectory = (dirPath) => {
   return fs.mkdirSync(dirPath, { recursive: true });
 };
 
-export const createAppStructure = () => {
+const createAppStructure = () => {
   const appDir = path.join(__dirname, "app");
   const fsdDirectoryNames = [
     "components",
@@ -34,3 +34,5 @@ export const createAppStructure = () => {
 };
 
 createAppStructure();
+
+module.exports = { createAppStructure };
