@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/kostiukirill/create-structure-fsd/issues"
   },
-  "homepage": "https://github.com/kostiukirill/create-structure-fsd#readme"
+  "homepage": "https://github.com/kostiukirill/create-structure-fsd#readme",
+  "publishConfig": { "access": "public" }
 }
