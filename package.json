@@ -1,14 +1,14 @@
 {
-  "name": "create-structure-fsd",
+  "name": "@react-native/create-structure-fsd",
   "version": "1.0.0",
-  "description": "create-structure-fsd is a powerful command-line tool designed for developers using the Feature-Sliced Design (FSD) architecture in React applications. This library simplifies the process of structuring projects by providing easy-to-use scripts for creating folder structures and components based on FSD principles.",
+  "description": "create-structure-fsd/react-native is a powerful command-line tool designed for developers using the Feature-Sliced Design (FSD) architecture in React applications. This library simplifies the process of structuring projects by providing easy-to-use scripts for creating folder structures and components based on FSD principles.",
   "main": "index.js",
   "bin": {
   "fsd": "./index.js"
 },
 "repository": {
   "type": "git",
-  "url": "git+https://github.com/kostiukirill/create-structure-fsd.git"
+  "url": "https://github.com/kostiukirill/create-structure-fsd/tree/create-structure-fsd/react-native"
 },
   "keywords": [
     "feature-sliced",
