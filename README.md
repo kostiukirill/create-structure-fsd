@@ -1,6 +1,6 @@
 # Feature-Sliced Design Library
 
-[![npm version](https://img.shields.io/npm/v/create-structure-fsd.svg)]([https://www.npmjs.com/create-structure-fsd](https://www.npmjs.com/package/@kirillkostyu/create-structure-fsd-react-native))
+[![npm version](https://img.shields.io/npm/v/<имя_вашего_пакета>.svg)](https://www.npmjs.com/package/@kirillkostyu/create-structure-fsd-react-native/v/1.0.0)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Описание
